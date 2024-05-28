@@ -1,0 +1,24 @@
+CRITICAL - 2024-05-10 09:00:09 --> Class "App\Models\ComponentsType" not found
+in APPPATH\Controllers\Main.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 09:26:20 --> Class "App\Models\Okres" not found
+in APPPATH\Controllers\Main.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 09:27:09 --> Class "App\Models\Okres" not found
+in APPPATH\Controllers\Main.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-10 09:27:09 --> Class "App\Models\Okres" not found
+in APPPATH\Controllers\Main.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
