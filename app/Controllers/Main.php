@@ -8,19 +8,21 @@ use App\Models\Okres;
 class Main extends BaseController
 {
     var $okres;
+    var $data;
     public function __construct(){
         $this->okres= new Okres();
         $okresy = $this->okres->where("kraj", 141)->findall();
         $this->data["okresy"] = $okresy;
     }
     
-    public function index(){   
-        echo view("indexx");
+    public function index(){
+        echo view("indexx", $this->data);
     }
     public function getOkres($id)
     {
-        $this->data["okres"] = $this->okres->find($id);
-        echo view("nejakyOkres", $data);
+        $data["okres"] = $this->okres->join('obec', 'obec.okres = "okres.kod',"inner")->find($id);
+
+        echo view("nejakyOkres", $this->data);
     }
     
 }

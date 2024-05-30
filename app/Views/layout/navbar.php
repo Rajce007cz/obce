@@ -10,7 +10,7 @@
             foreach ($okresy as $x) { ?>
             <li class="nav-item">
             <?php
-                echo anchor('/', 'Main Page',['class'=> 'nav-link']);
+                echo anchor('okres/'.$x->kod, $x->nazevOkresu,['class'=> 'nav-link']);
             ?>
             </li>
             <?php } ?>

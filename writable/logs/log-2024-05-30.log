@@ -1,0 +1,1372 @@
+WARNING - 2024-05-30 05:59:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 05:59:15 --> Undefined variable $okresy
+in APPPATH\Views\layout\navbar.php on line 10.
+ 1 APPPATH\Views\layout\navbar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $okresy', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\layout.php(10): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\layout.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/layout', [], true)
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('indexx', [], true)
+10 APPPATH\Controllers\Main.php(18): view('indexx')
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 05:59:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 05:59:55 --> Undefined variable $data
+in APPPATH\Controllers\Main.php on line 18.
+ 1 APPPATH\Controllers\Main.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 05:59:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 05:59:56 --> Undefined variable $data
+in APPPATH\Controllers\Main.php on line 18.
+ 1 APPPATH\Controllers\Main.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 05:59:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 05:59:57 --> Undefined variable $data
+in APPPATH\Controllers\Main.php on line 18.
+ 1 APPPATH\Controllers\Main.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 05:59:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 05:59:57 --> Undefined variable $data
+in APPPATH\Controllers\Main.php on line 18.
+ 1 APPPATH\Controllers\Main.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 05:59:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 05:59:58 --> Undefined variable $data
+in APPPATH\Controllers\Main.php on line 18.
+ 1 APPPATH\Controllers\Main.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 05:59:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 05:59:58 --> Undefined variable $data
+in APPPATH\Controllers\Main.php on line 18.
+ 1 APPPATH\Controllers\Main.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:00:14 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\Main.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Main', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:00:15 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\Main.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Main', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:00:16 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\Main.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Main', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:00:16 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\Main.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Main', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:00:17 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\Main.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Main', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:00:17 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\Main.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Main', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:00:17 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\Main.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Main', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:00:17 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\Main.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Main', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:00:18 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\Main.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Main', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:00:18 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\Main.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Main', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:00:18 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\Main.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Main', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:00:18 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\Main.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Main', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:00:18 --> syntax error, unexpected variable "$this"
+in APPPATH\Controllers\Main.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Main', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 06:00:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:00:51 --> Undefined variable $data
+in APPPATH\Controllers\Main.php on line 18.
+ 1 APPPATH\Controllers\Main.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 06:00:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:00:52 --> Undefined variable $data
+in APPPATH\Controllers\Main.php on line 18.
+ 1 APPPATH\Controllers\Main.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 06:01:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:01:26 --> Undefined variable $data
+in APPPATH\Controllers\Main.php on line 18.
+ 1 APPPATH\Controllers\Main.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 06:01:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:01:26 --> Undefined variable $data
+in APPPATH\Controllers\Main.php on line 18.
+ 1 APPPATH\Controllers\Main.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 06:01:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:01:27 --> Undefined variable $data
+in APPPATH\Controllers\Main.php on line 18.
+ 1 APPPATH\Controllers\Main.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 06:01:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:01:27 --> Undefined variable $data
+in APPPATH\Controllers\Main.php on line 18.
+ 1 APPPATH\Controllers\Main.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 06:01:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:01:28 --> Undefined variable $data
+in APPPATH\Controllers\Main.php on line 18.
+ 1 APPPATH\Controllers\Main.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php', 18)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 06:01:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 06:01:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 06:01:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 06:01:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 06:01:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 06:01:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 06:12:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 06:12:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 06:13:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 06:13:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 06:13:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 06:13:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 06:13:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 06:13:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 06:13:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 06:17:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:17:20 --> Undefined variable $data
+in APPPATH\Views\layout\navbar.php on line 10.
+ 1 APPPATH\Views\layout\navbar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\layout.php(10): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\layout.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/layout', [], true)
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('indexx', [], true)
+10 APPPATH\Controllers\Main.php(18): view('indexx')
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 06:17:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-05-30 06:23:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Main::$data is deprecated in APPPATH\Controllers\Main.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\Main->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:23:06 --> Undefined variable $data
+in APPPATH\Views\layout\navbar.php on line 10.
+ 1 APPPATH\Views\layout\navbar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\layout.php(10): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\layout.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/layout', [], true)
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('indexx', [], true)
+10 APPPATH\Controllers\Main.php(18): view('indexx')
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:23:42 --> Undefined variable $data
+in APPPATH\Controllers\Main.php on line 19.
+ 1 APPPATH\Controllers\Main.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:23:43 --> Undefined variable $data
+in APPPATH\Controllers\Main.php on line 19.
+ 1 APPPATH\Controllers\Main.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:23:43 --> Undefined variable $data
+in APPPATH\Controllers\Main.php on line 19.
+ 1 APPPATH\Controllers\Main.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:23:45 --> Undefined variable $data
+in APPPATH\Controllers\Main.php on line 19.
+ 1 APPPATH\Controllers\Main.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:24:34 --> Undefined variable $data
+in APPPATH\Views\layout\navbar.php on line 10.
+ 1 APPPATH\Views\layout\navbar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\layout.php(10): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\layout.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/layout', [], true)
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('indexx', [], true)
+10 APPPATH\Controllers\Main.php(20): view('indexx', [...])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:24:35 --> Undefined variable $data
+in APPPATH\Views\layout\navbar.php on line 10.
+ 1 APPPATH\Views\layout\navbar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\layout.php(10): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\layout.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/layout', [], true)
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('indexx', [], true)
+10 APPPATH\Controllers\Main.php(20): view('indexx', [...])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:24:36 --> Undefined variable $data
+in APPPATH\Views\layout\navbar.php on line 10.
+ 1 APPPATH\Views\layout\navbar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\layout.php(10): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\layout.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/layout', [], true)
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('indexx', [], true)
+10 APPPATH\Controllers\Main.php(20): view('indexx', [...])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:24:36 --> Undefined variable $data
+in APPPATH\Views\layout\navbar.php on line 10.
+ 1 APPPATH\Views\layout\navbar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\layout.php(10): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\layout.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/layout', [], true)
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('indexx', [], true)
+10 APPPATH\Controllers\Main.php(20): view('indexx', [...])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:24:37 --> Undefined variable $data
+in APPPATH\Views\layout\navbar.php on line 10.
+ 1 APPPATH\Views\layout\navbar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\layout.php(10): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\layout.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/layout', [], true)
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('indexx', [], true)
+10 APPPATH\Controllers\Main.php(20): view('indexx', [...])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:24:37 --> Undefined variable $data
+in APPPATH\Views\layout\navbar.php on line 10.
+ 1 APPPATH\Views\layout\navbar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\layout.php(10): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\layout.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/layout', [], true)
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('indexx', [], true)
+10 APPPATH\Controllers\Main.php(20): view('indexx', [...])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:24:38 --> Undefined variable $data
+in APPPATH\Views\layout\navbar.php on line 10.
+ 1 APPPATH\Views\layout\navbar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\layout.php(10): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\layout.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/layout', [], true)
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('indexx', [], true)
+10 APPPATH\Controllers\Main.php(20): view('indexx', [...])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:24:53 --> Undefined variable $okresy
+in APPPATH\Controllers\Main.php on line 19.
+ 1 APPPATH\Controllers\Main.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $okresy', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:24:54 --> Undefined variable $okresy
+in APPPATH\Controllers\Main.php on line 19.
+ 1 APPPATH\Controllers\Main.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $okresy', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:28:04 --> Undefined variable $data
+in APPPATH\Views\layout\navbar.php on line 10.
+ 1 APPPATH\Views\layout\navbar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\layout.php(10): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\layout.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/layout', [], true)
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('indexx', [], true)
+10 APPPATH\Controllers\Main.php(20): view('indexx', [...])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:28:05 --> Undefined variable $data
+in APPPATH\Views\layout\navbar.php on line 10.
+ 1 APPPATH\Views\layout\navbar.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\layout.php(10): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\layout.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/layout', [], true)
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('indexx', [], true)
+10 APPPATH\Controllers\Main.php(20): view('indexx', [...])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:28:32 --> Undefined constant "x"
+in APPPATH\Views\layout\navbar.php on line 13.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 4 APPPATH\Views\layout\layout.php(10): CodeIgniter\View\View->include('layout/navbar')
+ 5 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\layout.php')
+ 6 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/layout', [], true)
+ 8 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('indexx', [], true)
+ 9 APPPATH\Controllers\Main.php(20): view('indexx', [...])
+10 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+11 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+12 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:28:38 --> Undefined property: stdClass::$nazev
+in APPPATH\Views\layout\navbar.php on line 13.
+ 1 APPPATH\Views\layout\navbar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nazev', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\layout.php(10): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\layout.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/layout', [], true)
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('indexx', [], true)
+10 APPPATH\Controllers\Main.php(20): view('indexx', [...])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-30 06:28:38 --> Undefined property: stdClass::$nazev
+in APPPATH\Views\layout\navbar.php on line 13.
+ 1 APPPATH\Views\layout\navbar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nazev', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\layout.php(10): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\layout\\layout.php')
+ 7 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layout/layout', [], true)
+ 9 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('indexx', [], true)
+10 APPPATH\Controllers\Main.php(20): view('indexx', [...])
+11 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->index()
+12 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+13 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 06:31:31 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-30 06:31:31 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 06:31:36 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3705')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3705')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3705')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-30 06:31:36 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3705')
+ 4 APPPATH\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3705')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3705')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 06:31:39 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3705')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3705')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3705')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-30 06:31:39 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3705')
+ 4 APPPATH\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3705')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3705')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 06:31:43 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3708')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3708')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3708')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-30 06:31:43 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3708')
+ 4 APPPATH\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3708')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3708')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 06:31:45 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-30 06:31:45 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 06:31:46 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-30 06:31:46 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 06:33:51 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3708')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3708')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3708')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-30 06:33:51 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3708')
+ 4 APPPATH\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3708')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3708')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 06:34:13 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3708')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3708')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3708')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-30 06:34:13 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3708')
+ 4 APPPATH\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3708')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3708')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 06:34:13 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3708')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3708')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3708')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-30 06:34:13 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3708')
+ 4 APPPATH\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3708')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3708')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 06:34:14 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3708')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3708')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3708')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-30 06:34:14 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3708')
+ 4 APPPATH\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3708')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3708')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 06:34:15 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3810')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3810')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3810')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-30 06:34:15 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3810')
+ 4 APPPATH\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3810')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3810')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 06:34:42 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-30 06:34:42 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 06:35:16 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-30 06:35:16 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 06:35:18 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-30 06:35:18 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 06:36:40 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-30 06:36:40 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 06:36:41 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-30 06:36:41 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 06:36:41 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-30 06:36:41 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 06:36:41 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-30 06:36:41 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 06:36:41 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-30 06:36:41 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 06:36:42 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-30 06:36:42 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 06:36:42 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-30 06:36:42 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(24): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 06:37:25 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-30 06:37:25 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 06:37:29 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3708')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3708')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3708')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-30 06:37:29 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3708')
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3708')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3708')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 06:40:02 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3708')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3708')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3708')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-30 06:40:02 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_"okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3708')
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3708')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3708')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 06:40:03 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3708')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3708')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3708')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-30 06:40:03 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_"okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3708')
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3708')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3708')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 06:40:03 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3708')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3708')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3708')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-30 06:40:03 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_"okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3708')
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3708')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3708')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-30 06:40:03 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3708')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3708')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3708')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-30 06:40:03 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_"okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3708')
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3708')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3708')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
