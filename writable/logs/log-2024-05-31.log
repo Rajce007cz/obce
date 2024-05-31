@@ -1,0 +1,871 @@
+ERROR - 2024-05-31 07:33:09 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 07:33:09 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_"okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 07:36:17 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 07:36:17 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_"okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 07:36:18 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 07:36:18 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_"okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 07:36:18 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 07:36:18 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_"okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 07:36:18 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 07:36:18 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_"okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 07:36:18 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 07:36:18 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_"okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 07:36:18 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 07:36:18 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_"okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 07:36:18 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 07:36:18 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_"okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 07:36:19 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 07:36:19 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_"okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 07:41:07 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 07:41:07 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_"okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 07:41:25 --> mysqli_sql_exception: Unknown column 'ob_"okres.kod' in 'on clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 07:41:25 --> Unknown column 'ob_"okres.kod' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_"okres`.`kod`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 07:41:25 --> mysqli_sql_exception: Unknown column 'ob_"okres.kod' in 'on clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 07:41:25 --> Unknown column 'ob_"okres.kod' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_"okres`.`kod`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 07:41:26 --> mysqli_sql_exception: Unknown column 'ob_"okres.kod' in 'on clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 07:41:26 --> Unknown column 'ob_"okres.kod' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_"okres`.`kod`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 07:41:27 --> mysqli_sql_exception: Unknown column 'ob_"okres.kod' in 'on clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 07:41:27 --> Unknown column 'ob_"okres.kod' in 'on clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_"okres`.`kod`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 07:41:43 --> syntax error, unexpected identifier "okres", expecting ")"
+in APPPATH\Controllers\Main.php on line 23.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Main')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Main')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Main', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 07:42:31 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 07:42:31 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_okres`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 07:50:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '" = okres.kod' at line 3 in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3705')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 07:50:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '" = okres.kod' at line 3
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON obec.okres" = okres.kod', [], false)
+ 2 SYSTEMPATH\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(false, null)
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->find()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3705')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 08:05:26 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 08:05:26 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_okres`.`kod`
+INNER JOIN `ob_cast_obce` ON `ob_obec`.`kod` = `ob_cast_obce`.`obec`
+INNER JOIN `ob_ulice` ON `ob_ulice`.`cast_obce` = `ob_cast_obce`.`kod`
+INNER JOIN `ob_adresni_misto` ON `ob_adresni_misto`.`ulice` = `ob_ulice`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 08:06:02 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 08:06:02 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_okres`.`kod`
+INNER JOIN `ob_cast_obce` ON `ob_obec`.`kod` = `ob_cast_obce`.`obec`
+INNER JOIN `ob_ulice` ON `ob_ulice`.`cast_obce` = `ob_cast_obce`.`kod`
+INNER JOIN `ob_adresni_misto` ON `ob_adresni_misto`.`ulice` = `ob_ulice`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 08:06:03 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 08:06:03 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_okres`.`kod`
+INNER JOIN `ob_cast_obce` ON `ob_obec`.`kod` = `ob_cast_obce`.`obec`
+INNER JOIN `ob_ulice` ON `ob_ulice`.`cast_obce` = `ob_cast_obce`.`kod`
+INNER JOIN `ob_adresni_misto` ON `ob_adresni_misto`.`ulice` = `ob_ulice`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 08:06:06 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 08:06:06 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_okres`.`kod`
+INNER JOIN `ob_cast_obce` ON `ob_obec`.`kod` = `ob_cast_obce`.`obec`
+INNER JOIN `ob_ulice` ON `ob_ulice`.`cast_obce` = `ob_cast_obce`.`kod`
+INNER JOIN `ob_adresni_misto` ON `ob_adresni_misto`.`ulice` = `ob_ulice`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 08:08:18 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 08:08:18 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_okres`.`kod`
+INNER JOIN `ob_cast_obce` ON `ob_obec`.`kod` = `ob_cast_obce`.`obec`
+INNER JOIN `ob_ulice` ON `ob_ulice`.`cast_obce` = `ob_cast_obce`.`kod`
+INNER JOIN `ob_adresni_misto` ON `ob_adresni_misto`.`ulice` = `ob_ulice`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 08:09:24 --> mysqli_sql_exception: Unknown column 'ob_okres.id' in 'where clause' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 08:09:24 --> Unknown column 'ob_okres.id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_okres`.`kod`
+INNER JOIN `ob_cast_obce` ON `ob_obec`.`kod` = `ob_cast_obce`.`obec`
+INNER JOIN `ob_ulice` ON `ob_ulice`.`cast_obce` = `ob_cast_obce`.`kod`
+INNER JOIN `ob_adresni_misto` ON `ob_adresni_misto`.`ulice` = `ob_ulice`.`kod`
+WHERE `ob_okres`.`id` = :okres.id:', [...], false)
+ 2 SYSTEMPATH\Model.php(196): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(true, '3711')
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->find('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 08:10:31 --> mysqli_sql_exception: Not unique table/alias: 'ob_ulice' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 08:10:31 --> Not unique table/alias: 'ob_ulice'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_okres`.`kod`
+INNER JOIN `ob_cast_obce` ON `ob_obec`.`kod` = `ob_cast_obce`.`obec`
+INNER JOIN `ob_ulice` ON `ob_ulice`.`cast_obce` = `ob_cast_obce`.`kod`
+INNER JOIN `ob_ulice` ON `ob_ulice`.`cast_obce` = `ob_cast_obce`.`kod`
+INNER JOIN `ob_adresni_misto` ON `ob_adresni_misto`.`ulice` = `ob_ulice`.`kod`', [], false)
+ 2 SYSTEMPATH\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(false, null)
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->find()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 08:10:38 --> mysqli_sql_exception: Not unique table/alias: 'ob_ulice' in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(563): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(23): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 08:10:38 --> Not unique table/alias: 'ob_ulice'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_okres`.`kod`
+INNER JOIN `ob_cast_obce` ON `ob_obec`.`kod` = `ob_cast_obce`.`obec`
+INNER JOIN `ob_ulice` ON `ob_ulice`.`cast_obce` = `ob_cast_obce`.`kod`
+INNER JOIN `ob_ulice` ON `ob_ulice`.`cast_obce` = `ob_cast_obce`.`kod`
+INNER JOIN `ob_adresni_misto` ON `ob_adresni_misto`.`ulice` = `ob_ulice`.`kod`', [], false)
+ 2 SYSTEMPATH\Model.php(199): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(563): CodeIgniter\Model->doFind(false, null)
+ 4 APPPATH\Controllers\Main.php(23): CodeIgniter\BaseModel->find()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 08:28:30 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'count(*) as pocet
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` =...' at line 1 in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT obec.naz...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT obec.naz...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT obec.naz...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT obec.naz...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(30): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 08:28:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'count(*) as pocet
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` =...' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT obec.nazev count(*) as pocet
+FROM `ob_okres`
+INNER JOIN `ob_obec` ON `ob_obec`.`okres` = `ob_okres`.`kod`
+INNER JOIN `ob_cast_obce` ON `ob_obec`.`kod` = `ob_cast_obce`.`obec`
+INNER JOIN `ob_ulice` ON `ob_ulice`.`cast_obce` = `ob_cast_obce`.`kod`
+INNER JOIN `ob_adresni_misto` ON `ob_adresni_misto`.`ulice` = `ob_ulice`.`kod`
+WHERE `okres` = :okres:
+GROUP BY `ob_obec`.`kod`
+ORDER BY `pocet` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Main.php(30): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 08:30:43 --> Undefined property: App\Controllers\Main::$obec
+in APPPATH\Controllers\Main.php on line 24.
+ 1 APPPATH\Controllers\Main.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Main::$obec', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 08:31:16 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'count(*) as pocet
+FROM `ob_obec`
+INNER JOIN `ob_cast_obce` ON `ob_obec`.`kod`...' at line 1 in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT obec.naz...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT obec.naz...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT obec.naz...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT obec.naz...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 08:31:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'count(*) as pocet
+FROM `ob_obec`
+INNER JOIN `ob_cast_obce` ON `ob_obec`.`kod`...' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT obec.nazev count(*) as pocet
+FROM `ob_obec`
+INNER JOIN `ob_cast_obce` ON `ob_obec`.`kod` = `ob_cast_obce`.`obec`
+INNER JOIN `ob_ulice` ON `ob_ulice`.`cast_obce` = `ob_cast_obce`.`kod`
+INNER JOIN `ob_adresni_misto` ON `ob_adresni_misto`.`ulice` = `ob_ulice`.`kod`
+WHERE `okres` = :okres:
+GROUP BY `ob_obec`.`kod`
+ORDER BY `pocet` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Main.php(33): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-31 08:31:17 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'count(*) as pocet
+FROM `ob_obec`
+INNER JOIN `ob_cast_obce` ON `ob_obec`.`kod`...' at line 1 in C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\krajca\obce\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT obec.naz...', 0)
+#1 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT obec.naz...')
+#2 C:\xampp\htdocs\krajca\obce\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT obec.naz...')
+#3 C:\xampp\htdocs\krajca\obce\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT obec.naz...', Array, false)
+#4 C:\xampp\htdocs\krajca\obce\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\krajca\obce\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\krajca\obce\app\Controllers\Main.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+#8 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#9 C:\xampp\htdocs\krajca\obce\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\krajca\obce\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2024-05-31 08:31:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'count(*) as pocet
+FROM `ob_obec`
+INNER JOIN `ob_cast_obce` ON `ob_obec`.`kod`...' at line 1
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT obec.nazev count(*) as pocet
+FROM `ob_obec`
+INNER JOIN `ob_cast_obce` ON `ob_obec`.`kod` = `ob_cast_obce`.`obec`
+INNER JOIN `ob_ulice` ON `ob_ulice`.`cast_obce` = `ob_cast_obce`.`kod`
+INNER JOIN `ob_adresni_misto` ON `ob_adresni_misto`.`ulice` = `ob_ulice`.`kod`
+WHERE `okres` = :okres:
+GROUP BY `ob_obec`.`kod`
+ORDER BY `pocet` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Main.php(33): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 08:37:02 --> Undefined variable $data
+in APPPATH\Views\nejakyOkres.php on line 49.
+ 1 APPPATH\Views\nejakyOkres.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\nejakyOkres.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\nejakyOkres.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('nejakyOkres', [], true)
+ 5 APPPATH\Controllers\Main.php(34): view('nejakyOkres', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 08:37:37 --> Undefined variable $data
+in APPPATH\Views\nejakyOkres.php on line 49.
+ 1 APPPATH\Views\nejakyOkres.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\nejakyOkres.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\nejakyOkres.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('nejakyOkres', [], true)
+ 5 APPPATH\Controllers\Main.php(34): view('nejakyOkres', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 08:37:38 --> Undefined variable $data
+in APPPATH\Views\nejakyOkres.php on line 49.
+ 1 APPPATH\Views\nejakyOkres.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\nejakyOkres.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\nejakyOkres.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('nejakyOkres', [], true)
+ 5 APPPATH\Controllers\Main.php(34): view('nejakyOkres', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 08:37:38 --> Undefined variable $data
+in APPPATH\Views\nejakyOkres.php on line 49.
+ 1 APPPATH\Views\nejakyOkres.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\nejakyOkres.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\nejakyOkres.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('nejakyOkres', [], true)
+ 5 APPPATH\Controllers\Main.php(34): view('nejakyOkres', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 08:37:38 --> Undefined variable $data
+in APPPATH\Views\nejakyOkres.php on line 49.
+ 1 APPPATH\Views\nejakyOkres.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\nejakyOkres.php', 49)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\nejakyOkres.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('nejakyOkres', [], true)
+ 5 APPPATH\Controllers\Main.php(34): view('nejakyOkres', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 08:39:24 --> Undefined variable $template
+in APPPATH\Views\nejakyOkres.php on line 6.
+ 1 APPPATH\Views\nejakyOkres.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $template', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\nejakyOkres.php', 6)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\krajca\\obce\\app\\Views\\nejakyOkres.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('nejakyOkres', [], true)
+ 5 APPPATH\Controllers\Main.php(34): view('nejakyOkres', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 08:42:23 --> Undefined property: App\Controllers\Main::$com
+in APPPATH\Controllers\Main.php on line 34.
+ 1 APPPATH\Controllers\Main.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Main::$com', 'C:\\xampp\\htdocs\\krajca\\obce\\app\\Controllers\\Main.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-31 08:44:37 --> syntax error, unexpected token "++", expecting "->" or "?->" or "{" or "["
+in APPPATH\Views\nejakyOkres.php on line 9.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('nejakyOkres', [], true)
+ 3 APPPATH\Controllers\Main.php(35): view('nejakyOkres', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Main->getOkres('3711')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
